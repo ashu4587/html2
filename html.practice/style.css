@@ -1,0 +1,82 @@
+body{
+  background-color: rgb(5, 236, 147);
+}   
+span {
+  float:left;
+  margin-top:25px;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height:80%;
+}
+p{
+  font-size:130%;
+  margin-top:25px;
+}
+h1{
+  text-align: center;
+  margin-top: 40px;
+  padding:5px;
+  background-color: crimson;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+.offer{
+  font-size:200%;
+  text-align: center;
+
+}
+.book{
+  font-size:170%;
+  text-align: center;
+
+}
+
+/*form styling */
+form{
+  text-align: center;
+  font-size:x-large;
+}
+input[type=text] {
+  width:600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+input[type=email]{
+  width:600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+input[type=tel] {
+  width:600px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+button{
+  width:10%;
+  background-color: #313131;
+  color: white;
+  padding:20px 40px;
+ 
+  border: none;
+  border-radius:10px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ff500b;
+}
+select{
+  width:400px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+
